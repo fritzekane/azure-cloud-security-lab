@@ -2,6 +2,9 @@
 
 ## Overview
 This project demonstrates how to secure a Linux virtual machine deployed in Microsoft Azure.
+## Architecture Diagram
+
+![Azure Cloud Security Lab](architecture-diagram.png)
 
 The lab simulates real-world cloud security practices including SSH hardening, firewall configuration, brute force protection, and file integrity monitoring.
 
