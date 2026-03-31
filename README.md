@@ -1,4 +1,5 @@
 # Azure Cloud Security Lab
+Hands-on cloud security lab demonstrating Linux VM hardening and monitoring techniques in Microsoft Azure, including SSH protection, firewall configuration, brute-force attack and file integrity monitoring. 
 
 ## Overview
 This project demonstrates how to secure a Linux virtual machine deployed in Microsoft Azure.
