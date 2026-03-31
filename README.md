@@ -32,3 +32,30 @@ Implemented AIDE to detect unauthorized changes to system files.
 
 ### Log Analysis
 Used system logs to identify brute force attacks:
+## Security Monitoring
+### SSH Authentication Logs
+Authentication logs were monitored to observe login attempts and administrative activity on the Linux VM
+Command used:
+
+sudo tail -f /var/log/auth.log
+
+Example output:
+
+![Auth Log Monitoring](auth-log-monitoring.png)
+
+### File Integrity Monitoring (AIDE)
+
+AIDE was installed to detect unauthorized changes to system files.
+
+Initialization command:
+
+sudo aideinit
+
+Integrity check command:
+
+sudo aide --config /etc/aide/aide.conf --check
+
+Example output:
+
+![AIDE Integrity Check](aide-integrity-check.png)
+
